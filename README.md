@@ -35,6 +35,7 @@ privacy_engine.attach(optimizer)
 A tutorial on MNIST is available in [Tutorial: MNIST DP-Adv]([Github_Tutorial]DP+Adversarial_MNIST.ipynb)
 
 We provide a pseudo-code and claim in paper that DP-Adv is as private as regular DP training, and as fast as regular adversarial training in clock time.
+
 ![DP-Adv=FGSM+DP-SGD](DP-Adv=FGSM+DPSGD.png?raw=true)
 
 We also compare with concurrent work [StoBatch](https://github.com/haiphanNJIT/StoBatch) in "Scalable Differential Privacy with Certified Robustness in Adversarial Learning" and study the effects of Adv and/or DP on the calibration of networks.
